@@ -1,4 +1,4 @@
-# BLENDED_LEARNING
+
 # Implementation of Ridge, Lasso, and ElasticNet Regularization for Predicting Car Price
 
 ## AIM:
@@ -37,11 +37,12 @@ To implement Ridge, Lasso, and ElasticNet regularization models using polynomial
    Compare the performance of the models.
 
 ## Program:
-```
+```py
 /*
 Program to implement Ridge, Lasso, and ElasticNet regularization using pipelines.
-Developed by: Arjun N S
+Developed by: ARJUN N S
 RegisterNumber: 212223230020
+*/
 # Importing necessary libraries
 import pandas as pd
 import numpy as np
@@ -129,21 +130,13 @@ plt.xticks(rotation=45)
 plt.tight_layout()
 plt.show()
 
-*/
 ```
 
 ## Output:
 
-model = cd_fast.enet_coordinate_descent(
+![alt text](image-1.png)
 
-Ridge - Mean Squared Error: 39011712.54, R² Score: 0.51
-
-Lasso - Mean Squared Error: 12616438.15, R² Score: 0.84
-
-ElasticNet - Mean Squared Error: 8666607.74, R² Score: 0.89)
-
-<img width="1197" alt="Screenshot 2024-10-06 at 8 58 51 PM" src="https://github.com/user-attachments/assets/bfeebd0c-c84d-4dce-9c38-182990f46973">
-
+![alt text](image.png)
 
 ## Result:
 Thus, Ridge, Lasso, and ElasticNet regularization models were implemented successfully to predict the car price and the model's performance was evaluated using R² score and Mean Squared Error.
